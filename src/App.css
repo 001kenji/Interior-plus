@@ -1,0 +1,700 @@
+  
+#home{
+  background-image: url('./assets/images/close-up-young-business-team-working.jpg');
+}
+
+@font-face {
+  font-family: Big;
+  src: url('./assets/font/Poppins-Bold.ttf');
+}
+
+#big {
+  font-family: Big;
+}
+
+#moreData {
+  background-image:  url('./assets/images/millennial-group-young-businesspeople.jpg');
+}
+
+
+#Investor {
+  background-image: url('./assets/images/professional-asian-businesswoman-gray-blazer.jpg');
+}
+#divimage {
+  background-image: url('./assets/images/horizontal-shot-happy-mixed-race-females.jpg');
+}
+  
+  @media only screen and (max-width : 320px) {
+    /* navbar section */
+    
+    #universal-navbar-div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      min-width: 100%;
+      max-width: 100%;
+      font-family: sans-serif;
+    }
+    #top-nav-div {
+      display: flex;
+      flex-direction: column;
+      font-weight: 450;
+      justify-content: space-around;
+      gap: 5px;
+      width: 100%;
+      min-width: 100%;
+      max-width: 100%;
+      padding: 1rem;
+      font-size: medium;
+      border-bottom: 1px solid slategray;
+    }
+    #topLeft-detail-div {
+      display: inline-flex;
+      justify-content: space-around;
+      padding: 0px 1rem;
+      list-style: none;
+    }
+    #top-right-detail-div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+    }
+    #top-right-detail-div span {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 16px;
+      font-family: 'Times New Roman', Times, serif;
+    }
+    #botton-nav-div {
+      position: sticky;
+      margin-top: 0;
+      display: flex;
+      width: 100%;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 0px 0.5rem;
+    }
+    #botton-container-div {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    #botton-img-div {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 1rem 0px;
+      
+    
+    }
+    #botton-img-div img {
+      width: 18%;
+      padding: 0.8rem 0px;
+    }
+    #botton-img-div span {
+      display: inline-flex;
+      font-weight: bold;
+      font-size: xx-large;
+      
+    }
+    #nav-botton-list {
+      padding-left: 1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      text-align: left;
+      justify-content: space-around;
+      gap: 8px;
+    }
+    #nav-botton-list li {
+      text-align: left;
+      min-width: fit-content;
+      
+    
+    }
+    #nav-botton-list li:hover li:focus option:focus {
+      color: rgb(2 132 199);
+    }
+    #nav-botton-list li > select {
+      outline: none;
+      text-align: left;
+      
+    }
+    #nav-botton-list li  option {
+      text-align: left;
+    }
+    
+    /* home doctor section */
+    
+    
+    
+    }
+    
+    @media only screen and (min-width : 321px) and (max-width : 375px) {
+      /* navbar section */
+      
+      #universal-navbar-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+        font-family: sans-serif;
+      }
+      #top-nav-div {
+        display: flex;
+        flex-direction: column;
+        font-weight: 450;
+        justify-content: space-around;
+        gap: 5px;
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+        padding: 1rem;
+        font-size: medium;
+        border-bottom: 1px solid slategray;
+      }
+      #topLeft-detail-div {
+        display: inline-flex;
+        justify-content: space-around;
+        padding: 0px 1rem;
+        list-style: none;
+      }
+      #top-right-detail-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+      }
+      #top-right-detail-div span {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        font-size: 16px;
+        font-family: 'Times New Roman', Times, serif;
+      }
+      #botton-nav-div {
+        position: sticky;
+        margin-top: 0;
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0px 0.5rem;
+      }
+      #botton-container-div {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      #botton-img-div {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 1rem 0px;
+        
+      
+      }
+      #botton-img-div img {
+        width: 18%;
+        padding: 0.8rem 0px;
+      }
+      #botton-img-div span {
+        display: inline-flex;
+        font-weight: bold;
+        font-size: xx-large;
+        
+      }
+      #nav-botton-list {
+        padding-left: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+        justify-content: space-around;
+        gap: 8px;
+      }
+      #nav-botton-list li {
+        text-align: left;
+        min-width: fit-content;
+        
+      
+      }
+      #nav-botton-list li:hover li:focus option:focus {
+        color: rgb(2 132 199);
+      }
+      #nav-botton-list li > select {
+        outline: none;
+        text-align: left;
+        
+      }
+      #nav-botton-list li  option {
+        text-align: left;
+      }
+      
+      
+      
+      
+    }
+    
+    @media only screen and (min-width : 376px) and (max-width : 767px) {
+        /* navbar section */
+        
+        #universal-navbar-div {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          width: 100%;
+          min-width: 100%;
+          max-width: 100%;
+          font-family: sans-serif;
+        }
+        #top-nav-div {
+          display: flex;
+          flex-direction: column;
+          font-weight: 450;
+          justify-content: space-around;
+          gap: 5px;
+          width: 100%;
+          min-width: 100%;
+          max-width: 100%;
+          padding: 1rem;
+          font-size: medium;
+          border-bottom: 1px solid slategray;
+        }
+        #topLeft-detail-div {
+          display: inline-flex;
+          justify-content: space-around;
+          padding: 0px 1rem;
+          list-style: none;
+        }
+        #top-right-detail-div {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-around;
+        }
+        #top-right-detail-div span {
+          display: inline-flex;
+          align-items: center;
+          gap: 8px;
+          font-size: 16px;
+          font-family: 'Times New Roman', Times, serif;
+        }
+        #botton-nav-div {
+          position: sticky;
+          margin-top: 0;
+          display: flex;
+          width: 100%;
+          flex-direction: row;
+          justify-content: space-around;
+          padding: 0px 0.5rem;
+        }
+        #botton-container-div {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+        }
+        #botton-img-div {
+          display: flex;
+          flex-direction: row;
+          justify-content: flex-start;
+          align-items: center;
+          padding: 1rem 0px;
+          
+        
+        }
+        #botton-img-div img {
+          width: 18%;
+          padding: 0.8rem 0px;
+        }
+        #botton-img-div span {
+          display: inline-flex;
+          font-weight: bold;
+          font-size: xx-large;
+          
+        }
+        #nav-botton-list {
+          padding-left: 1rem;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          text-align: left;
+          justify-content: space-around;
+          gap: 8px;
+        }
+        #nav-botton-list li {
+          text-align: left;
+          min-width: fit-content;
+          
+        
+        }
+        #nav-botton-list li:hover li:focus option:focus {
+          color: rgb(2 132 199);
+        }
+        #nav-botton-list li > select {
+          outline: none;
+          text-align: left;
+          
+        }
+        #nav-botton-list li  option {
+          text-align: left;
+        }
+        
+        
+        
+        
+    }
+    @media only screen and (min-width : 768px) {
+      /* navbar section */
+      
+      #universal-navbar-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+        font-family: sans-serif;
+      }
+      #top-nav-div {
+        display: flex;
+        flex-direction: row;
+        font-weight: 450;
+        justify-content: space-around;
+        gap: 5px;
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+        padding: 1rem;
+        font-size: medium;
+        border-bottom: 1px solid slategray;
+      }
+      #topLeft-detail-div {
+        display: inline-flex;
+        justify-content: space-around;
+        padding: 0px 1rem;
+        width: 50%;
+        list-style: none;
+      }
+      #top-right-detail-div {
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+        gap: 5px;
+        align-items: center;
+        justify-content: space-around;
+      }
+      #top-right-detail-div span {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        font-size: 16px;
+        font-family: 'Times New Roman', Times, serif;
+      }
+      #botton-nav-div {
+        position: sticky;
+        margin-top: 0;
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 0px 0.5rem;
+      }
+      #botton-container-div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+        align-items: center;
+        
+      }
+      #botton-img-div {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 1rem 0px;
+        
+      
+      }
+      #botton-img-div img {
+        width: 18%;
+        padding: 0.8rem 0px;
+      }
+      #botton-img-div span {
+        display: inline-flex;
+        font-weight: bold;
+        font-size: xx-large;
+        
+      }
+      #nav-botton-list {
+        padding-left: 1rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        text-align: left;
+        justify-content: space-around;
+        gap: 20px;
+      }
+      #nav-botton-list li {
+        text-align: left;
+        min-width: fit-content;
+        
+      
+      }
+      #nav-botton-list li:hover li:focus option:focus {
+        color: rgb(2 132 199);
+      }
+      #nav-botton-list li > select {
+        outline: none;
+        text-align: left;
+        
+      }
+      #nav-botton-list li  option {
+        text-align: left;
+      }
+      
+      
+      
+      
+    }
+    
+    @media only screen and  (min-width : 1024px) {
+      /* navbar section */
+      
+      #universal-navbar-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+        font-family: sans-serif;
+      }
+      #top-nav-div {
+        display: flex;
+        flex-direction: row;
+        font-weight: 450;
+        justify-content: space-around;
+        gap: 5px;
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+        padding: 1rem;
+        font-size: medium;
+        border-bottom: 1px solid slategray;
+      }
+      #topLeft-detail-div {
+        display: inline-flex;
+        justify-content: space-around;
+        padding: 0px 1rem;
+        width: 50%;
+        list-style: none;
+      }
+      #top-right-detail-div {
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+        gap: 5px;
+        align-items: center;
+        justify-content: space-around;
+      }
+      #top-right-detail-div span {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        font-size: 16px;
+        font-family: 'Times New Roman', Times, serif;
+      }
+      #botton-nav-div {
+        position: sticky;
+        margin-top: 0;
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 0px 0.5rem;
+      }
+      #botton-container-div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+        align-items: center;
+        
+      }
+      #botton-img-div {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 1rem 0px;
+        
+      
+      }
+      #botton-img-div img {
+        width: 18%;
+        padding: 0.8rem 0px;
+      }
+      #botton-img-div span {
+        display: inline-flex;
+        font-weight: bold;
+        font-size: xx-large;
+        
+      }
+      #nav-botton-list {
+        padding-left: 1rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        text-align: left;
+        justify-content: space-around;
+        gap: 20px;
+      }
+      #nav-botton-list li {
+        text-align: left;
+        min-width: fit-content;
+        
+      
+      }
+      #nav-botton-list li:hover li:focus option:focus {
+        color: rgb(2 132 199);
+      }
+      #nav-botton-list li > select {
+        outline: none;
+        text-align: left;
+        
+      }
+      #nav-botton-list li  option {
+        text-align: left;
+      }
+      
+     
+      
+    }
+    
+    @media only screen and (min-width : 1440px) {
+      /* navbar section */
+      
+      #universal-navbar-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+        font-family: sans-serif;
+      }
+      #top-nav-div {
+        display: flex;
+        flex-direction: row;
+        font-weight: 450;
+        justify-content: space-around;
+        gap: 5px;
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+        padding: 1rem;
+        font-size: medium;
+        border-bottom: 1px solid slategray;
+      }
+      #topLeft-detail-div {
+        display: inline-flex;
+        justify-content: space-around;
+        padding: 0px 1rem;
+        width: 50%;
+        list-style: none;
+      }
+      #top-right-detail-div {
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+        gap: 5px;
+        align-items: center;
+        justify-content: space-around;
+      }
+      #top-right-detail-div span {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        font-size: 16px;
+        font-family: 'Times New Roman', Times, serif;
+      }
+      #botton-nav-div {
+        position: sticky;
+        margin-top: 0;
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 0px 0.5rem;
+      }
+      #botton-container-div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+        align-items: center;
+        
+      }
+      #botton-img-div {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 1rem 0px;
+        
+      
+      }
+      #botton-img-div img {
+        width: 18%;
+        padding: 0.8rem 0px;
+      }
+      #botton-img-div span {
+        display: inline-flex;
+        font-weight: bold;
+        font-size: xx-large;
+        
+      }
+      #nav-botton-list {
+        padding-left: 1rem;
+        display: flex;
+        flex-direction: row;
+        font-size: x-large;
+        align-items: center;
+        width: 100%;
+        text-align: left;
+        justify-content: space-around;
+        gap: 20px;
+      }
+      #nav-botton-list li {
+        text-align: left;
+        min-width: fit-content;
+        
+      
+      }
+      #nav-botton-list li:hover li:focus option:focus {
+        color: rgb(2 132 199);
+      }
+      #nav-botton-list li > select {
+        outline: none;
+        text-align: left;
+        
+      }
+      #nav-botton-list li  option {
+        text-align: left;
+      }
+      
+      
+      
+      
+    }
