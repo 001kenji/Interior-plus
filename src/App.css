@@ -1,17 +1,40 @@
   
 #home{
-  background-image: url('./assets/images/close-up-young-business-team-working.jpg');
+  animation: home 15s infinite ease-in-out;
+
 }
+
+#Aboutimg1 {
+  background-image:  url('./assets/images/images/1.jpg');
+}
+#Aboutimg2 {
+  background-image:  url('./assets/images/images/2.jpg');
+}
+#hrs {
+  background-image:  url('./assets/images/images/3.jpg');
+}
+@keyframes home {
+  0% {  background-image: url('./assets/images/images/slideshow/interior-wall-mockup-with-sofa-cabinet-living-room-with-empty-white-wall-background-3d-rendering.jpg');}  /* Start: no rotation */
+  40% { background-image: url('./assets/images/images/slideshow/white-wall-living-room-have-sofa-decoration-3d-rendering.jpg') } /* End: rotate 360 degrees */
+  80% { background-image: url('./assets/images/images/slideshow/wood-sideboard-living-room-interior-with-copy-space.jpg') } /* End: rotate 360 degrees */
+  100% {  background-image: url('./assets/images/images/slideshow/interior-wall-mockup-with-sofa-cabinet-living-room-with-empty-white-wall-background-3d-rendering.jpg');}  /* Start: no rotation */
+}
+
 
 @font-face {
   font-family: Big;
   src: url('./assets/font/Poppins-Bold.ttf');
 }
-
+@font-face {
+  font-family: sentense;
+  src: url('./assets/font/Poppins-Regular.ttf');
+}
 #big {
   font-family: Big;
 }
-
+#sentense {
+  font-family: sentense;
+}
 #moreData {
   background-image:  url('./assets/images/millennial-group-young-businesspeople.jpg');
 }
