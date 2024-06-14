@@ -68,7 +68,7 @@ function Home() {
                     </div>
 
                 </div>
-                <span className=" group-hover:flex text-slate-100 font-semibold  hidden absolute right-1/2 w-20 h-20 mt-10 text-center align-middle rounded-full bg-orange-500 cursor-pointer hover:bg-purple-700 transition-all duration-500 "><p className=" text-center m-auto ">More</p></span>
+                <span className=" group-hover:flex text-slate-100 font-semibold  hidden absolute ml-[10%] w-20 h-20 mt-10 text-center align-middle rounded-full bg-orange-500 cursor-pointer hover:bg-purple-700 transition-all duration-500 "><p className=" text-center m-auto ">More</p></span>
 
             </div>
         )
